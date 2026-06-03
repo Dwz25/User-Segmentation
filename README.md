@@ -15,7 +15,7 @@
 &emsp;&emsp;为实现精细化运营、提高营销效率，本项目对传统 RFM 进行优化，构建用户分层体系。
 2. **数据说明**  
 &emsp;&emsp;本项目使用Kaggle网站上公开的电商平台用户数据集，共包含 **1000条用户记录，14个字段**，覆盖三类数据如下：  
-- **用户画像**：User_ID, Age, Gender, Location, Income, Interests  
+- **用户画像**：User_ID, Age, Gender, Location, Income, Interests, Newsletter_Subscription
 - **消费数据**：Last_Login_Days_Ago, Purchase_Frequency, Average_Order_Value, Total_Spending, Product_Category  
 - **行为数据**：Time_Spent_on_Site_Minutes, Pages_Viewed 
 
@@ -46,7 +46,7 @@
 # 项目结果
 1. **ROI 测算结果**  
   　　ROI测算结果如下图所示。可以看出，传统RFM模型，对比精细化运营和非精细化运营，ROI从4.0%提升至48.2%，证明精细化运营能极大程度上减少无效投入，提升营销效率。
-   而优化RFM模型能够更精准的找到高价值人群，总收益虽然小幅减少，但ROI 从48.2%提升至69.5%，证明了优化 RFM 模型的价值。
+   而优化RFM模型能够更精准的找到高价值人群，总收益虽然小幅减少，但ROI 从48.2%提升至69.5%，充分证明了优化 RFM 模型的业务价值。
    ![ROI和收益构成对比图](images/ROI和收益构成对比图.png)
 2. **用户分层和营销策略**  
   　　基于优化后的 RFM 模型，最后的用户分层如下表所示，并针对不同群体给出了差异化运营策略。
